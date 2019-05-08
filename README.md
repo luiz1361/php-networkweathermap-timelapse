@@ -9,7 +9,10 @@ Add the following to crontab:
 50 23 * * * root bash /usr/share/cacti/site/plugins/weathermap/timelapse/cron/weathermap_encoder.sh
 ```
 
+Clone as below:
+```bash
 mkdir /usr/share/cacti/site/plugins/weathermap/timelapse/ && cd /usr/share/cacti/site/plugins/weathermap/timelapse/ && git clone https://github.com/luiz1361/php-networkweathermap-timelapse.git . 
+```
 
 Requires the following Linux packages:
 * mencoder
