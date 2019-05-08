@@ -19,7 +19,11 @@ Requires the following Linux packages:
 * avconv
 * ffmpeg
 
-This should do the job $sudo apt-get install mencoder avconv ffmpeg 
+This should do the job:
+```bash
+$sudo apt-get install mencoder avconv ffmpeg 
+```
 
 Screenshots:
+
 ![screenshot](https://github.com/luiz1361/php-networkweathermap-timelapse/blob/master/screenshots/screenshot.gif)
